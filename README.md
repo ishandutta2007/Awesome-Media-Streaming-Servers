@@ -1,31 +1,42 @@
-# Awesome Media Streaming Servers
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Media Streaming Servers Banner" width="100%">
+</p>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Tracked Projects](https://img.shields.io/badge/Streaming%20Servers-Curated-blue.svg)](https://github.com/ishandutta2007/Awesome-Media-Streaming-Servers)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+# 🎬 Awesome Media Streaming Servers
 
-> A curated directory of the best **media streaming servers**, self-hosted home theater systems, live video streaming infrastructure, RTMP/WebRTC routers, and enterprise video SaaS platforms.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Media-Streaming-Servers"><img src="https://img.shields.io/badge/Streaming%20Servers-Curated-blue.svg" alt="Curated" /></a>
+  <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
----
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Hosted Streaming Platforms](#saas--hosted-streaming-platforms)
-- [Open-Source Media Streaming Servers](#open-source-media-streaming-servers)
-- [Key Architectural Trade-Offs](#key-architectural-trade-offs)
-- [How to Contribute](#how-to-contribute)
-- [License & Disclaimer](#license--disclaimer)
+> 🚀 A curated directory of the best **media streaming servers**, self-hosted home theater systems, live video streaming infrastructure, RTMP/WebRTC routers, and enterprise video SaaS platforms.
 
 ---
 
-## Sector Overview & Market Dynamics
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Streaming Platforms](#️-saas--hosted-streaming-platforms)
+- [💻 Open-Source Media Streaming Servers](#-open-source-media-streaming-servers)
+- [⚖️ Key Architectural Trade-Offs](#️-key-architectural-trade-offs)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
+- [📜 License & Disclaimer](#-license--disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
 
 The global video streaming software and infrastructure market is valued at approximately **$18 billion to $20 billion** (growing at ~17–19% CAGR toward $60B+ by the early 2030s). The industry exhibits a **moderately concentrated, bifurcated structure**: hyperscalers and private-equity-backed incumbents (AWS, Vimeo, Brightcove) anchor enterprise broadcast distribution, while an active, highly fragmented long-tail of specialized WebRTC engines, self-hosted media servers, and open-source streaming software commands developer and prosumer self-hosting niches.
 
 ---
 
-## SaaS & Hosted Streaming Platforms
+## ☁️ SaaS & Hosted Streaming Platforms
 
 The following SaaS and managed streaming platforms are sorted in descending order by **Company Scale** (enterprise valuation / parent company market cap / annual run-rate).
 
@@ -43,7 +54,7 @@ The following SaaS and managed streaming platforms are sorted in descending orde
 
 ---
 
-## Open-Source Media Streaming Servers
+## 💻 Open-Source Media Streaming Servers
 
 The following projects are open-source media streaming and routing solutions, sorted in descending order by **GitHub Star Count**.
 
@@ -65,37 +76,60 @@ The following projects are open-source media streaming and routing solutions, so
 
 ---
 
-## Key Architectural Trade-Offs
+## ⚖️ Key Architectural Trade-Offs
 
 When selecting between SaaS streaming platforms and self-hosted open-source servers, evaluate these core architectural criteria:
 
-1. **Protocol Latency**:
+1. **⚡ Protocol Latency**:
    - **Ultra-Low Latency (<500ms)**: Use WebRTC / WHIP / WHEP engines like **LiveKit**, **Red5 Pro**, or **Janus Gateway** for interactive live experiences, remote robotics, or video calling.
    - **Low Latency (1s–3s)**: Use SRT / Low-Latency HLS (LL-HLS) with **MediaMTX** or **SRS** for near-live gaming and sports.
    - **Standard Video on Demand & Distribution (5s–30s)**: Use traditional HLS / MPEG-DASH via **Jellyfin**, **Plex**, or **AWS Elemental MediaLive**.
-2. **Infrastructure Burden vs. Operating Margin**:
+2. **💰 Infrastructure Burden vs. Operating Margin**:
    - SaaS platforms (AWS, Dacast, Brightcove) eliminate transcoding orchestration and CDN maintenance but introduce variable egress fees ($0.05–$0.30/GB).
    - Self-hosted servers (Jellyfin, MediaMTX, SRS) require dedicated GPU/CPU hardware for hardware transcoding (NVENC/VAAPI/QuickSync) and robust uplink bandwidth.
-3. **Ecosystem & Ownership**:
+3. **🔐 Ecosystem & Ownership**:
    - Plex and Emby offer plug-and-play mobile and TV apps at the expense of privacy and increasing subscription fees.
    - Jellyfin delivers complete data autonomy and free hardware transcoding without license enforcement.
 
 ---
 
-## How to Contribute
+## 🤝 How to Contribute
 
 We welcome contributions from developers, self-hosters, and video engineers!
 
-1. Fork this repository.
-2. Add your project or update existing details in `README.md`.
-3. Adhere to our strict tabular formats:
+1. 🍴 Fork this repository.
+2. 📝 Add your project or update existing details in `README.md`.
+3. 📏 Adhere to our strict tabular formats:
    - For SaaS products: include **Scale**, **Pricing** (specific starting tier), and **Free Tier Limit**.
    - For open-source projects: include repo link, **GitHub Star badge** (linking to `/stargazers`), protocols, and technical summary.
-4. Open a Pull Request with a clear rationale.
+4. 🚀 Open a Pull Request with a clear rationale.
 
 ---
 
-## License & Disclaimer
+## 💖 Support & Community
+
+If you find this curated collection helpful for choosing your media streaming stack, consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and contribute** new media streaming projects and updates.
+- 📢 **Share** with fellow self-hosters, media streamers, and DevOps engineers.
+- ☕ **Buy me a coffee**: Support ongoing curation and maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Media-Streaming-Servers&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Media-Streaming-Servers&type=date&legend=top-left)
+
+---
+
+## 📜 License & Disclaimer
 
 - Distributed under the [Creative Commons Zero v1.0 Universal License (CC0-1.0)](LICENSE).
 - All trademarks and brand names belong to their respective corporate owners.
