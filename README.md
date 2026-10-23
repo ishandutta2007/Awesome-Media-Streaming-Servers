@@ -56,7 +56,7 @@ The following SaaS and managed streaming platforms are sorted in descending orde
 
 ## 💻 Open-Source Media Streaming Servers
 
-The following projects are open-source media streaming and routing solutions, sorted in descending order by **GitHub Stars_Count**.
+The following projects are open-source media streaming and routing solutions, sorted in descending order by **GitHub_Stars_Count**.
 
 | Project | GitHub_Stars | Primary Protocols & Tech | Description |
 | :--- | :--- | :--- | :--- |
@@ -101,7 +101,7 @@ We welcome contributions from developers, self-hosters, and video engineers!
 2. 📝 Add your project or update existing details in `README.md`.
 3. 📏 Adhere to our strict tabular formats:
    - For SaaS products: include **Scale**, **Pricing** (specific starting tier), and **Free Tier Limit**.
-   - For open-source projects: include repo link, **GitHub Stars_Badge** (linking to `/stargazers`), protocols, and technical summary.
+   - For open-source projects: include repo link, **GitHub_Stars_Badge** (linking to `/stargazers`), protocols, and technical summary.
 4. 🚀 Open a Pull Request with a clear rationale.
 
 ---
